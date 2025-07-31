@@ -41,7 +41,7 @@ section p {
   margin-top: 0.5rem;
 }
 
-/* Standard-Button (falls noch benötigt) */
+/* Standard-Button */
 .btn {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -57,6 +57,7 @@ section p {
   display: inline-block;
   padding: 0.5rem 1rem;
   margin-top: 0.5rem;
+  margin-right: 0.5rem;
   background: #28a745;
   color: #fff;
   text-decoration: none;
@@ -64,6 +65,21 @@ section p {
 }
 .btn-phone:hover {
   background: #218838;
+}
+
+/* Instagram-Button: gleicher Aufbau wie Telefon-Button */
+.btn-instagram {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  background: #E1306C;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.btn-instagram:hover {
+  background: #C82361;
 }
 
 /* Footer */
